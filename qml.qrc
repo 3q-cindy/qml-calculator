@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>pageMain.js</file>
+        <file>TestBtn.qml</file>
+        <file>image/qtlogo.png</file>
+        <file>components/DarkButton.qml</file>
+        <file>components/LightButton.qml</file>
+    </qresource>
+</RCC>

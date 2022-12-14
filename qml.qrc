@@ -6,5 +6,6 @@
         <file>image/qtlogo.png</file>
         <file>components/DarkButton.qml</file>
         <file>components/LightButton.qml</file>
+        <file>image/door_chime0.mp3</file>
     </qresource>
 </RCC>

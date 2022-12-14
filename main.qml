@@ -2,6 +2,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
+import QtMultimedia 5.15
 import "./pageMain.js" as HandelFun
 import "./components" //qml只能看同一層的東西，必須載入
 
@@ -342,6 +343,13 @@ Window {
         y: 500
 //        anchors.centerIn: parent
     }
+    Item{
+        Audio{
+            id: playMusic
+            source: "qrc:/image/door_chime0.mp3"
+//            autoPlay: true
+        }
+    }
     Button{
         id: popbtn
         x: 70
@@ -349,6 +357,7 @@ Window {
         text: "popup"
         onClicked: {
             popbtn.showPopupCenter(display1)
+            playMusic.play();
         }
         Component {
             id:     display1

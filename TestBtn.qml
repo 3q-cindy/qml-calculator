@@ -83,6 +83,11 @@ Item {
                     text: "Do Nothing"
                 }
             }
+            MenuItem {
+                height: 35
+                text: "Paste"
+                onTriggered: {}
+            }
         }
       }
 
